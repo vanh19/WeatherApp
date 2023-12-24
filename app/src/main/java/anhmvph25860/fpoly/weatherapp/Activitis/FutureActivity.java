@@ -42,7 +42,7 @@ public class FutureActivity extends AppCompatActivity {
         items.add(new FutureDomains("Tue", "cloudy_sunny", "Cloudy Sunny", 22, 13));
         items.add(new FutureDomains("Wen", "sunny", "Sunny", 28, 11));
         items.add(new FutureDomains("Thu", "rainy", "Rainy", 23, 12));
-
+    //aca
 
         recyclerView = findViewById(R.id.view2);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
